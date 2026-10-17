@@ -1,0 +1,8 @@
+name: cb-ci-toolkit
+description: ChainBreaker lab demo composite action.
+runs:
+  using: composite
+  steps:
+    - uses: chainbreaker-lab-divy/cb-lint-reporter@v1
+    - run: echo "ci toolkit (demo)"
+      shell: bash
